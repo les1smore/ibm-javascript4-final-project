@@ -1,4 +1,8 @@
 # Travel Recommendation Web Platform
+## Try it out!
+- Type "beach", "temple" and "usa" in the search bar and see our recommended destination! 
+- Don't hesitate to send us an email by clicking "CONTACT US" or get to know more about the team and the company in the "HOME" and "ABOUT US" pages.
+
 ## Introduction
 This repository contains the development assets for a travel recommendation web application designed to enrich the user's journey in finding their ideal travel destinations. Our platform leverages interactive displays and rich multimedia content to offer users a detailed glimpse into a variety of locales, empowering them to make informed travel choices. This project places a strong emphasis on personalized suggestions, ensuring each user experience is as unique as their travel aspirations.
 
