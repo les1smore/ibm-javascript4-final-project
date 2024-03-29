@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.prosto-one-regular {
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navigation bar */
+.navbar {
+  font-family: "Castoro Titling", serif;
+  background-color: #273136;
+  color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  display: flex; /* use flexbox for alignment */
+  align-items: center; /* align items vertically */
+}
+
+.navbar .logo {
+  font-weight: bold;
+  text-decoration: none;
+  color: #e0dac1;
+  align-items: center;
+  display: flex;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  position: relative; /* relative positioning for the navbar brand area */
+}
+
+.logo-image {
+  max-height: 100; /* control the size of the logo with max-height */
+  height: 30px;
+  width: auto;
+  margin-right: 10px;
+  margin-top: -10px; /* negative margin allows the logo to extend beyond the navbar's size*/
+  margin-bottom: -10px;
+}
+
+.navbar .nav-links a {
+  color: #e0dac1;
+  text-decoration: none;
+  margin-left: 1rem;
+  align-items: center;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#search-button,
+#clear-button {
+  font-family: "Eczar", serif;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 0.8rem;
+  color: white;
+  background-color: #9bb6b7;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+#clear-button {
+  margin-left: 0.5rem;
+  background-color: #9bb6b7;
+}
+
+/* Add hover effects for buttons */
+#search-button:hover {
+  background-color: #0056b3;
+}
+
+#clear-button:hover {
+  background-color: #d32f2f;
+}
+
+#search-form {
+  font-family: "Eczar", serif;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  bottom: 200px; /* Increse the value to move the form up*/
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+#search-field {
+  font-family: "Eczar", serif;
+  font-size: medium;
+  border: none;
+  width: 300px;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+button {
+  font-family: "Eczar", serif;
+  background-color: #e0dac1;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Main page */
+
+.hero {
+  position: relative;
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0; /* Resets any default margin */
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: ceter;
+  justify-content: flex-start;
+  text-align: left;
+  color: white;
+  min-height: 100vh; /* This ensures that the hero section is at least the height of the viewport */
+}
+
+.hero-content {
+  max-width: 1200px;
+  padding-left: 5%;
+  padding-right: 2rem;
+  padding-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero h1 {
+  font-size: 4rem; /* Large font size for the main heading */
+  font-weight: bold; /* Optional, if you need the heading to be bold */
+  margin-bottom: 1rem; /* Space below the heading */
+}
+
+.hero p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5rem; /* Font size for the description */
+  max-width: 600px; /* Maximum width of the paragraph, helps with readability */
+}
+
+.hero button {
+  font-family: "Castoro Titling", serif;
+  font-size: bold;
+  padding: 1rem 2rem; /* Padding inside the button */
+  background-color: #9bb6b7; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 8px; /* Rounded corners for the button */
+  font-size: 1rem;
+  cursor: pointer; /* Mouse cursor changes to indicate it's clickable */
+  margin-top: 1rem; /* Space above the button */
+}
+
+/* Hover effect for the button */
+.hero button:hover {
+  background-color: #004bac; /* Darker shade on hover */
+}
+
+.gird-container {
+  display: none; /* hide grid by default */
+  grid-template-columns: 1fr; /*full width single column layout*/
+  gap: 5px;
+  margin: 20px;
+}
+
+.grid-container {
+  display: none; /* Initially hidden */
+  grid-template-columns: 1fr; /* Single column grid layout */
+  gap: 20px; /* Space between grid items */
+  margin: 20px; /* Add some margin around the container */
+}
+
+.destination-result {
+  background-color: white;
+  color: #9bb6b7;
+  border: 0px solid #ddd;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.destination-result img {
+  width: 100%; /* Make the image take up the full width of its container */
+  height: 200px; /* Fixed height for all images */
+  object-fit: cover; /* This will cover the area, cropping the image if necessary */
+  border-radius: 4px; /* Optional: rounded corners for the images */
+}
+
+main {
+  padding: 1rem;
+}
