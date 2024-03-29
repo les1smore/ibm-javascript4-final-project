@@ -12,4 +12,3 @@ This repository contains the development assets for a travel recommendation web 
 - Curated Destination Lists: Based on the user's preferences, our website suggests top destinations. Beach lovers receive a selection of pristine shorelines, while those drawn to spiritual sites get a list of significant temples, each with its story and allure. City explorers are provided with a detailed catalogue of urban highlights, complemented by timely local information.
 - Insightful Company Profile: The About section offers a deep dive into our company's mission, guiding principles, and the collective goals that drive our dedication to travelers worldwide.
 - Contact Us Page: A straightforward and accessible form for user inquiries, promoting open communication channels and ensuring a swift and thoughtful response from our team.
-- 
