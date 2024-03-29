@@ -1,5 +1,5 @@
 # 🌐 Travel Recommendation Web Platform - TravelBloom
-## Try it out!
+## 🌟 Try it out!
 - Type "beach", "temple" and "usa" in the search bar and see our recommended destination! 
 - Don't hesitate to send us an email by clicking "CONTACT US" or get to know more about the team and the company in the "HOME" and "ABOUT US" pages.
 
